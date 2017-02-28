@@ -22,4 +22,5 @@ cc_library(
     hdrs = [
         ":rs_prebuilt_hdrs"
     ],
+    linkstatic=1,
 )
