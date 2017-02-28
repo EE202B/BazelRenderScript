@@ -6,6 +6,7 @@ Build RenderScript with Bazel and ndk-build
 You must update the NDK to r14-beta2 or higher to enable build RenderScript with ndk-build. The main issue with bazel is that it's toolchain is still build with NDK r12 while the RenderScript API recently has been added back to NDK since r14-beta2.
 
 ### Usage:
+   - Setup your NDK path in `WORKSPACE`
    - `make arch=$(target_arch)` 
       * target_arch=[x86, armeabi-v7a, etc.]
    - `make clean`
